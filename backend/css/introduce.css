@@ -1,0 +1,165 @@
+.image_profile{
+    width: 120px;
+    height: 120px;
+
+
+    border-radius: 30px;
+    
+    background-size: cover;
+    background-image: url('../image/kaka.jpeg');
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    height : 120px;
+}
+
+.introduce_page{
+    margin: 20px;
+    padding: 30px;
+    background-color:#000000;
+    height: 35rem;
+    width: 80%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    background-color: black;
+    justify-content: center;
+}
+
+.introduce_page{
+    margin: auto;
+    text-align: center;
+}
+
+.information{
+    background-color:#333333;
+    max-width: 300px;
+    min-width: 200px;
+    height: 100%;
+    border-radius: 30px;
+    margin-right: 10px;
+    font-family: 'x12y12pxMaruMinyaHangul';
+    font-size: 30px;
+    color: #FFFFFF ; /* 색코드 총 6자리 : 00(레드)00(그린)00(블루)*/
+}
+
+.Content{
+    width: 100%;
+    margin-top: 45px;
+    border-radius: 30px;
+    height: auto;
+    background-color:#333333;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.Content_images{
+    font-size: 65px;
+    width: 15%;
+}
+
+:root{
+    width: auto;
+}
+
+@font-face {
+  font-family: 'x12y12pxMaruMinyaHangul';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50%;
+  src: url('../src/x12y12pxMaruMinyaHangul.ttf') format('truetype');
+}
+
+.Contents {
+    width: 60%;
+    font-size: 20px;
+    height: 15%;
+    right: 10px;
+    display: inline-block;
+    margin-top: -50px;
+    margin-right:15px;
+}
+
+.Personal_information{
+    margin-top: 40px;
+    width: 100%;
+    height: 300px;
+    color: white;
+}
+
+.Personal_information span p{
+    font-size: 20px;
+}
+
+.Personal_information span{
+    font-size: 30px;
+}
+
+.selected_Contents{
+    width: 45%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'x12y12pxMaruMinyaHangul';
+    color: #FFFFFF;
+}
+
+
+.line{
+    background-color: #FFFFFF;
+    height: 3px;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.first_introduce_text {
+    height: 65%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'SeoulNamsan';
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.first_introduce_text p {
+    margin-bottom: 5px;
+}
+.tab {
+    color: white;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'SeoulNamsan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    color: #FFFFFF;
+    background-color: grey;
+}
+
+.index {
+    margin: 20px;
+    padding: 30px;
+    background-color:#000000;
+    height: 35rem;
+    width: 80%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.visit_write_Display {
+    height: 100px;
+    width: 85%;
+}
